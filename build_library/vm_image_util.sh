@@ -24,6 +24,8 @@ VALID_IMG_TYPES=(
     gce
     brightbox
     monsoon
+    cloudstack
+    cloudstack_vhd
 )
 
 # Set at runtime to one of the above types
@@ -165,10 +167,19 @@ IMG_rackspace_onmetal_DISK_LAYOUT=onmetal
 IMG_rackspace_onmetal_OEM_PACKAGE=oem-rackspace-onmetal
 IMG_rackspace_onmetal_FS_HOOK=onmetal
 
+<<<<<<< HEAD
 ## sap/monsoon
 IMG_monsoon_DISK_FORMAT=raw
 IMG_monsoon_OEM_PACKAGE=oem-ec2-compat
 IMG_monsoon_OEM_USE=monsoon
+=======
+## cloudstack
+IMG_cloudstack_BOOT_KERNEL=0
+IMG_cloudstack_OEM_PACKAGE=oem-cloudstack
+IMG_cloudstack_vhd_BOOT_KERNEL=0
+IMG_cloudstack_vhd_DISK_FORMAT=vhd
+IMG_cloudstack_vhd_OEM_PACKAGE=oem-cloudstack
+>>>>>>> feat(vm_image_util): CloudStack support
 
 ###########################################################
 
