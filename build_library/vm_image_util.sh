@@ -23,6 +23,7 @@ VALID_IMG_TYPES=(
     xen
     gce
     brightbox
+    monsoon
 )
 
 # Set at runtime to one of the above types
@@ -162,6 +163,11 @@ IMG_rackspace_vhd_OEM_PACKAGE=oem-rackspace
 IMG_rackspace_onmetal_DISK_FORMAT=qcow2
 IMG_rackspace_onmetal_DISK_LAYOUT=onmetal
 IMG_rackspace_onmetal_OEM_PACKAGE=oem-rackspace-onmetal
+
+## sap/monsoon
+IMG_sap_DISK_FORMAT=raw
+IMG_sap_OEM_PACKAGE=oem-ec2-compat
+IMG_sap_OEM_USE=monsoon
 
 ###########################################################
 
