@@ -165,9 +165,9 @@ IMG_rackspace_onmetal_DISK_LAYOUT=onmetal
 IMG_rackspace_onmetal_OEM_PACKAGE=oem-rackspace-onmetal
 
 ## sap/monsoon
-IMG_sap_DISK_FORMAT=raw
-IMG_sap_OEM_PACKAGE=oem-ec2-compat
-IMG_sap_OEM_USE=monsoon
+IMG_monsoon_DISK_FORMAT=raw
+IMG_monsoon_OEM_PACKAGE=oem-ec2-compat
+IMG_monsoon_OEM_USE=monsoon
 
 ###########################################################
 
