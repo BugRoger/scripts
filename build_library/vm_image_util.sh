@@ -26,6 +26,7 @@ VALID_IMG_TYPES=(
     monsoon
     cloudstack
     cloudstack_vhd
+    digitalocean
 )
 
 # Set at runtime to one of the above types
@@ -181,6 +182,9 @@ IMG_cloudstack_vhd_BOOT_KERNEL=0
 IMG_cloudstack_vhd_DISK_FORMAT=vhd
 IMG_cloudstack_vhd_OEM_PACKAGE=oem-cloudstack
 >>>>>>> feat(vm_image_util): CloudStack support
+
+## digitalocean
+IMG_digitalocean_OEM_PACKAGE=oem-digitalocean
 
 ###########################################################
 
