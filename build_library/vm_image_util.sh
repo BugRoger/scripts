@@ -224,6 +224,11 @@ IMG_hyperv_BOOT_KERNEL=0
 IMG_hyperv_DISK_FORMAT=vhd
 IMG_hyperv_OEM_PACKAGE=oem-hyperv
 
+## sap/monsoon
+IMG_monsoon_DISK_FORMAT=raw
+IMG_monsoon_OEM_PACKAGE=oem-ec2-compat
+IMG_monsoon_OEM_USE=monsoon
+
 ###########################################################
 
 # Validate and set the vm type to use for the rest of the functions
