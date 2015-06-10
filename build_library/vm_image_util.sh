@@ -38,6 +38,7 @@ VALID_IMG_TYPES=(
     cloudsigma
     packet
     interoute
+    sap_monsoon
 )
 
 #list of oem package names, minus the oem- prefix
@@ -59,6 +60,7 @@ VALID_OEM_PACKAGES=(
     cloudsigma
     packet
     interoute
+    sap-monsooon
 )
 
 # Set at runtime to one of the above types
@@ -266,6 +268,10 @@ IMG_interoute_DISK_LAYOUT=interoute
 IMG_interoute_CONF_FORMAT=interoute
 IMG_interoute_OEM_PACKAGE=oem-interoute
 IMG_interoute_BUNDLE_FORMAT=ova
+
+## sap monsoon
+IMG_sap_monsoon_DISK_FORMAT=raw
+IMG_sap_monsoon_OEM_PACKAGE=oem-sap-monsoon
 
 ###########################################################
 
